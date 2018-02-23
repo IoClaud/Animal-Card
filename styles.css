@@ -1,0 +1,124 @@
+/* add your CSS here */
+
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700');
+/*
+*
+* GENERIC SETUP
+*
+*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a, a:hover, a:active, a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.9em;
+}
+
+h3 {
+  font-family: 'Righteous', cursive;
+  font-size: 2em;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+#wrapper {
+  font-family: Helvetica, Arial, Sans-Serif;
+  border: 1px solid #ddd;
+  width: calc(300px + 4em);
+  margin: 1em auto;
+  -webkit-box-shadow: 6px 6px 4px 0px rgba(221, 221, 221, 1);
+  -moz-box-shadow: 6px 6px 4px 0px rgba(221, 221, 221, 1);
+  box-shadow: 6px 6px 4px 0px rgba(221, 221, 221, 1);
+  border-radius: 5px;
+}
+
+/*
+*
+* HEADER
+*
+*/
+
+header {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 1em 2em;
+}
+
+header hr {
+  display: block;
+  margin-top: 1em;
+  border: 0.5px solid #ddd;
+}
+
+/*
+*
+* CONTENT
+*
+*/
+
+#content {
+  padding: 0 2em 2em;
+}
+
+.information {
+  margin: 1em -1px 0 -1px;
+  padding: 1em 1em 2em;
+  border: 1px solid #ddd;
+  background-color: white;
+}
+
+.emphasize {
+  font-style: italic;
+}
+
+.emphasize a:link {
+  color: blue;
+  font-weight: 700;
+}
+
+.emphasize a:hover {
+  text-decoration: underline;
+}
+
+.emphasize a:visited {
+  color: purple;
+  text-decoration: underline;
+}
+
+.list-items {
+  margin: 1em;
+}
+
+.list-items span {
+  font-weight: bold;
+}
+
+.description p {
+  margin-bottom: 0.5em;
+}
